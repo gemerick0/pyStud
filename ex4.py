@@ -156,7 +156,7 @@ elif x == 48:
     a = int(input('Digite uma quantidade de segundos '))
     print(str(a // 3600) + ":" + str(a // 60) + ":" + str(a % 60))
 elif x == 49:
-    h, m, s = input('Digite horas, minutos e segundos correspondentes ao horário de início ').split()
+    h, m, s = input('Digite horas, minutos e segundos correspondentes ao horário de início ').split(':')
     a = int(input('Digite uma quantidade de segundos '))
     ah: int = int(h) + a // 3600
     d: int = 0
